@@ -19,6 +19,23 @@ a {
   box-sizing: border-box;
 }
 
+.show-bg-1 {
+  background-image: url('/white-flowers.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.show-bg-2 {
+  background-image: url('/white-flowers2.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.dont-show-bg {
+  background-image: none;
+}
 
 /* Hang */
 @-webkit-keyframes hvr-hang {

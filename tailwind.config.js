@@ -39,7 +39,13 @@ module.exports = {
       spacing: {
         'circle': '90px',
         'eye': '95px'
-       }
+      },
+      padding: {
+        full: '50%'
+      },
+      zIndex: {
+        '-10': '-10',
+      },
     }
   },
   variants: {
