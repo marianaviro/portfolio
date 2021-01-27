@@ -7,12 +7,21 @@ module.exports = {
       'courier': ['Courier', 'sans-serif'],
     },
     textColor: {
+      'lilac': '#E777ED',
+      'black': '#333333',
+      'gray': '#D0D0D0',
+      'dark-lilac': '#D477ED'
+    },
+    colors: {
       'lilac': '#D477ED',
-      'black': '#333333'
+      'black': '#333333',
+      'gray': '#D0D0D0'
     },
     fontSize: {
        'xs': '.75rem',
        'sm': '.85rem',
+       'm': '1.15rem',
+       'l': '3.5rem',
        'xl': '5rem'
     },
     minWidth: {
@@ -26,7 +35,11 @@ module.exports = {
     extend: {
       width: {
         '98': '28rem'
-      }
+      },
+      spacing: {
+        'circle': '90px',
+        'eye': '95px'
+       }
     }
   },
   variants: {
@@ -34,6 +47,7 @@ module.exports = {
       display: ['group-hover'],
       transitionProperty: ['hover', 'focus'],
       fontWeight: ['group-hover'],
+      cursor: ['hover', 'focus'],
     }
   },
   plugins: [],
