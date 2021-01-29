@@ -12,13 +12,21 @@ class Featured extends React.Component {
                             {title: 'Periodismo feminista de América Latina',
                             date: 'Nov 2020',
                             image: '/pf.png',
-                            link: 'https://periodismofeminista.netlify.app/'}],
+                            link: 'https://periodismofeminista.netlify.app/'},
+                            {title: 'HIV and public spending',
+                            date: 'Nov 2019',
+                            image: '/arv-featured.png',
+                            link: '/especial-ARV.pdf'},
+                            {title: 'Datasketch Apps',
+                            date: 'Sept 2020',
+                            image: '/dsapps-featured.png',
+                            link: 'https://xd.adobe.com/view/acac25bd-919d-4efc-87e2-20509a25c3ea-f9ff/?fullscreen&hints=off'}],
                     current: 0 };
   }
 
   tick() {
     var c = this.state.current + 1;
-    if (c < 2) {
+    if (c < 4) {
       this.setState(state => ({
         current: c
       }));
