@@ -56,14 +56,15 @@ export default function Home() {
         <h3 className="w-2/3 font-oswald text-ml uppercase text-black leading-relaxed py-12">
           I have experience working in startups with small teams.
         </h3>
-        <div className="w-2/3 pr-4 pt-0 py-12">
+        <div className="w-1/2 pt-0 my-0 mx-auto py-12">
           This has given me the space to learn new things. From exploring
           the realms of marketing to design a brand strategy
           and <a href="https://xd.adobe.com/view/acac25bd-919d-4efc-87e2-20509a25c3ea-f9ff/?fullscreen&hints=off" target="_blank" className="text-lilac underline">build a landing page with it,</a> to becoming a data visualization nerd to study the best ways
           of <a href="/ayuntamiento-madrid.pdf" target="_blank" className="text-lilac underline">transmitting
-          an organization's brand identity through their graphs.</a>
+          an organization's brand identity through their graphs.</a> I've even translated this knowledge
+          into <a href="https://pasos-felices.netlify.app/" target="_blank" className="text-lilac underline">very cheesy personal projects.</a>
         </div>
-        <h3 className="w-2/3 font-oswald text-ml uppercase text-black leading-relaxed py-12">
+        <h3 className="w-1/2 font-oswald text-ml uppercase text-black leading-relaxed py-12">
           Oh and I absolutely love that you're Open Source.
         </h3>
         <div className="w-1/2 pt-0 my-0 mx-auto py-12">
@@ -75,11 +76,6 @@ export default function Home() {
             Let's talk!
           </a>
         </h3>
-        <Link className="hover:cursor-pointer" href="/projects">
-          <a className="text-sm font-bold leading-tight text-lilac underline hover:text-dark-lilac">
-            Or check out my projects
-          </a>
-        </Link>
         <img src="/divisor.svg" className="py-6 opacity-100 object-contain w-20 h-auto"/>
       </main>
     </Layout>

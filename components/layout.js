@@ -91,12 +91,12 @@ class Layout extends React.Component {
               <img src="/star.png" className="opacity-0 group-hover:opacity-100 object-contain w-4 h-auto transition duration-100"/>
             </div>
             <div className="pl-4 pr-2 group flex flex-nowrap flex-row hover:text-lilac transition duration-100">
-              <a href="https://www.behance.net/marianaviro" onMouseEnter={this.start} onMouseLeave={this.stop} className="flex flex-nowrap flex-row">
+              <a href="https://www.behance.net/marianaviro" target="_blank" onMouseEnter={this.start} onMouseLeave={this.stop} className="flex flex-nowrap flex-row">
                   <img src="/behance.svg" alt="Go to Behance profile" className="object-contain w-5 h-auto"/>
               </a>
             </div>
             <div className="pl-2 pr-4 group flex flex-nowrap flex-row hover:text-lilac hover:cursor-pointer transition duration-100">
-              <a href="https://www.linkedin.com/in/marianavillamizar/" onMouseEnter={this.start} onMouseLeave={this.stop} className="flex flex-nowrap flex-row" target="_blank">
+              <a href="https://www.linkedin.com/in/marianavillamizar/" target="_blank" onMouseEnter={this.start} onMouseLeave={this.stop} className="flex flex-nowrap flex-row" target="_blank">
                   <img src="/linkedin.svg" alt="Go to LinkedIn profile" className="object-contain w-5 h-auto"/>
               </a>
             </div>

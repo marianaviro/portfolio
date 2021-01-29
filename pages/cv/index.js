@@ -14,7 +14,7 @@ export default function CV() {
         <h1 className="font-oswald text-l uppercase leading-tight">
           My CV also says a<br></br>lot about me.
         </h1>
-        <a className="hover:cursor-pointer" href="/star.png" target="_blank">
+        <a className="hover:cursor-pointer" href="/cv.pdf" target="_blank">
           <h1 className="font-oswald text-l uppercase leading-tight underline text-lilac hover:text-dark-lilac">
             Check it out!
           </h1>

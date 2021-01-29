@@ -31,22 +31,53 @@ export default function Projects() {
             <p className="font-oswald uppercase text-m leading-snug md:leading-relaxed group-hover:text-lilac group-hover:cursor-pointer">Datasketch Apps</p>
             <p className="text-xs italic leading-tight text-gray mt-2 md:mt-0 leading-snug md:leading-relaxed">Web design</p>
           </a>
-          <a href="https://periodismofeminista.netlify.app/" className="relative w-200 text-center md:text-left hvr-hang group hover:cursor-pointer w-1/2 px-4 pb-8" target="_blank">
-            <img src="/periodismo-feminista.svg" className="absolute pb-4 object-contain w-circle h-auto opacity-100 group-hover:opacity-0 transition duration-100"/>
+          <a href="https://xd.adobe.com/view/2e7634a8-96a3-44fa-baeb-ee1b4e4289d3-7b25/" className="relative w-200 text-center md:text-left hvr-hang group hover:cursor-pointer w-1/2 px-4 pb-8" target="_blank">
+            <img src="/datasketch-ui.png" className="absolute pb-4 object-contain w-circle h-auto opacity-100 group-hover:opacity-0 transition duration-100"/>
             <img src="/seemore.png" className="relative object-contain w-eye h-auto opacity-0 group-hover:opacity-100 z-50 transition duration-100"/>
             <p className="mt-6 text-xs leading-relaxed group-hover:text-gray">Project No. 3</p>
             <p className="font-oswald uppercase text-m leading-snug md:leading-relaxed group-hover:text-lilac group-hover:cursor-pointer">Datasketch Apps UI</p>
             <p className="text-xs italic leading-tight text-gray mt-2 md:mt-0 leading-snug md:leading-relaxed">Web design, UX/UI</p>
           </a>
-          <Link href="/Macrowise-light.pdf">
-            <a href="/Macrowise-light.pdf" className="relative w-200 text-center md:text-left hvr-hang group hover:cursor-pointer w-1/2 px-4 pb-8" target="_blank">
-              <img src="/periodismo-feminista.svg" className="absolute pb-4 object-contain w-circle h-auto opacity-100 group-hover:opacity-0 transition duration-100"/>
-              <img src="/seemore.png" className="relative object-contain w-eye h-auto opacity-0 group-hover:opacity-100 z-50 transition duration-100"/>
-              <p className="mt-6 text-xs leading-relaxed group-hover:text-gray">Project No. 4</p>
-              <p className="font-oswald uppercase text-m leading-snug md:leading-relaxed group-hover:text-lilac group-hover:cursor-pointer">Macrowise Landing Page</p>
-              <p className="text-xs italic leading-tight text-gray mt-2 md:mt-0 leading-snug md:leading-relaxed">Web design</p>
-            </a>
-          </Link>
+          <a href="/macrowise.pdf" className="relative w-200 text-center md:text-left hvr-hang group hover:cursor-pointer w-1/2 px-4 pb-8" target="_blank">
+            <img src="/macrowise.png" className="absolute pb-4 object-contain w-circle h-auto opacity-100 group-hover:opacity-0 transition duration-100"/>
+            <img src="/seemore.png" className="relative object-contain w-eye h-auto opacity-0 group-hover:opacity-100 z-50 transition duration-100"/>
+            <p className="mt-6 text-xs leading-relaxed group-hover:text-gray">Project No. 4</p>
+            <p className="font-oswald uppercase text-m leading-snug md:leading-relaxed group-hover:text-lilac group-hover:cursor-pointer">Macrowise Landing Page</p>
+            <p className="text-xs italic leading-tight text-gray mt-2 md:mt-0 leading-snug md:leading-relaxed">Web design</p>
+          </a>
+        </div>
+        <h3 className="w-2/3 font-oswald text-ml uppercase text-black leading-relaxed py-12">
+          Other projects
+        </h3>
+        <div className="flex flex-wrap flex-row justify-between py-4">
+          <a href="https://datospersonalesyleyes.netlify.app/" className="relative w-200 text-center md:text-left hvr-hang group hover:cursor-pointer w-1/2 px-4 pb-8" target="_blank">
+            <img src="/bid.png" className="absolute pb-4 object-contain w-circle h-auto opacity-100 group-hover:opacity-0 transition duration-100"/>
+            <img src="/seemore.png" className="relative object-contain w-eye h-auto opacity-0 group-hover:opacity-100 z-50 transition duration-100"/>
+            <p className="mt-6 text-xs leading-relaxed group-hover:text-gray">Project No. 5</p>
+            <p className="font-oswald uppercase text-m leading-snug md:leading-relaxed group-hover:text-lilac group-hover:cursor-pointer">Personal data and their laws</p>
+            <p className="text-xs italic leading-tight text-gray mt-2 md:mt-0 leading-snug md:leading-relaxed">Storytelling, Data visualization, Web design</p>
+          </a>
+          <a href="especial-arv.pdf" className="relative w-200 text-center md:text-left hvr-hang group hover:cursor-pointer w-1/2 px-4 pb-8" target="_blank">
+            <img src="/arv.png" className="absolute pb-4 object-contain w-circle h-auto opacity-100 group-hover:opacity-0 transition duration-100"/>
+            <img src="/seemore.png" className="relative object-contain w-eye h-auto opacity-0 group-hover:opacity-100 z-50 transition duration-100"/>
+            <p className="mt-6 text-xs leading-relaxed group-hover:text-gray">Project No. 6</p>
+            <p className="font-oswald uppercase text-m leading-snug md:leading-relaxed group-hover:text-lilac group-hover:cursor-pointer">HIV and public spending</p>
+            <p className="text-xs italic leading-tight text-gray mt-2 md:mt-0 leading-snug md:leading-relaxed">Storytelling, Data visualization, Web design</p>
+          </a>
+          <a href="/especial-leche.pdf" className="relative w-200 text-center md:text-left hvr-hang group hover:cursor-pointer w-1/2 px-4 pb-8" target="_blank">
+            <img src="/leche.png" className="absolute pb-4 object-contain w-circle h-auto opacity-100 group-hover:opacity-0 transition duration-100"/>
+            <img src="/seemore.png" className="relative object-contain w-eye h-auto opacity-0 group-hover:opacity-100 z-50 transition duration-100"/>
+            <p className="mt-6 text-xs leading-relaxed group-hover:text-gray">Project No. 7</p>
+            <p className="font-oswald uppercase text-m leading-snug md:leading-relaxed group-hover:text-lilac group-hover:cursor-pointer">Milk production in Colombia</p>
+            <p className="text-xs italic leading-tight text-gray mt-2 md:mt-0 leading-snug md:leading-relaxed">Storytelling, Data visualization, Web design</p>
+          </a>
+          <a href="/ayuntamiento-madrid.pdf" className="relative w-200 text-center md:text-left hvr-hang group hover:cursor-pointer w-1/2 px-4 pb-8" target="_blank">
+            <img src="/madrid.png" className="absolute pb-4 object-contain w-circle h-auto opacity-100 group-hover:opacity-0 transition duration-100"/>
+            <img src="/seemore.png" className="relative object-contain w-eye h-auto opacity-0 group-hover:opacity-100 z-50 transition duration-100"/>
+            <p className="mt-6 text-xs leading-relaxed group-hover:text-gray">Project No. 8</p>
+            <p className="font-oswald uppercase text-m leading-snug md:leading-relaxed group-hover:text-lilac group-hover:cursor-pointer">Madrid's townhall visualization style guide</p>
+            <p className="text-xs italic leading-tight text-gray mt-2 md:mt-0 leading-snug md:leading-relaxed">Data visualization</p>
+          </a>
         </div>
       </main>
     </Layout>

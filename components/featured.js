@@ -8,7 +8,7 @@ class Featured extends React.Component {
     this.state = {  cases: [{title: 'CV and personal brand design',
                             date: 'Oct 2020',
                             image:'/mariana.png',
-                            link:'/'},
+                            link:'/cv-cot.pdf'},
                             {title: 'Periodismo feminista de América Latina',
                             date: 'Nov 2020',
                             image: '/pf.png',
