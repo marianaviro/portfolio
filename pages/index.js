@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="font-oswald text-xl uppercase leading-tight">
           Hi! My name is Mariana Villamizar.
         </h1>
-        <div className="flex flex-wrap flex-row justify-between py-24">
+        <div className="flex flex-wrap flex-row justify-between pt-24 py-8">
           <div className="w-1/2 pr-4">
             <p className="">I’m a designer and a systems and computing engineer from Bogotá, Colombia.</p>
           </div>
@@ -23,8 +23,26 @@ export default function Home() {
             <p className="">My work specializes in information design, data visualization and illustration.</p>
           </div>
         </div>
-        <div className="w-1/2 pt-0 my-0 mx-auto">
-          My whole career has been about translating code and into websites that. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.
+        <h3 className="w-2/3 font-oswald text-ml uppercase text-black leading-relaxed py-12">
+          I love the challenge of conveying meaning visually and impeccably.
+        </h3>
+        <div className="w-1/2 pt-0 my-0 mx-auto py-12">
+          I'm able to program prototypes into websites (like this one -see my code on Github!) and also design websites and
+          build prototypes with them (like this one, which I did on Adobe XD). But I don't think of this as my strength.
+          Rather, I think I thrive on the challenge of telling stories through design and information, searching for insights hidden
+          in data or in documents or in someone's head, and coming up with ways to communicate these findings in the most appropriate way.
+        </div>
+        <div className="w-1/2 pt-0 my-0 mx-auto py-12">
+          In fact, my current job is exactly that: I receive buckets of data and reports from very talented organizations that
+          need help in communicating (and sometimes even locating) their findings. My work can consist in going through the data
+          to find outstanding values or relationships and crafting a good story to share them with an audience (link a BID). It can also consist
+          in finding the best design concept to transmit this information in an approachable and novel way.
+        </div>
+        <div className="w-1/2 pt-0 my-0 mx-auto py-12">
+          I came to know Tailwind CSS through one of my colleagues, whose programming abilities I admire. He insisted I should try it.
+          From the start, I just loved the idea of making the translation of design into code, a much easier and intuitive way.
+          Seizing the opportunity to show you my work, I programmed this website
+          using Tailwind CSS. I think as I designer and a programmer I can be of assistance to connect insights from designers and developers.
         </div>
       </main>
     </Layout>

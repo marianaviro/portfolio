@@ -30,6 +30,7 @@ module.exports = {
        'xs': '.75rem',
        'sm': '.85rem',
        'm': '1.15rem',
+       'ml': '2rem',
        'l': '3.5rem',
        'xl': '5rem'
     },
