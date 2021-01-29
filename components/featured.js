@@ -5,12 +5,14 @@ class Featured extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {  cases: [{title: 'Personal branding',
+    this.state = {  cases: [{title: 'CV and personal brand design',
                             date: 'Oct 2020',
-                            image:'/mariana.png'},
+                            image:'/mariana.png',
+                            link:'/'},
                             {title: 'Periodismo feminista de América Latina',
                             date: 'Nov 2020',
-                            image:'/pf.png'}],
+                            image: '/pf.png',
+                            link: 'https://periodismofeminista.netlify.app/'}],
                     current: 0 };
   }
 
@@ -50,7 +52,7 @@ class Featured extends React.Component {
         <p className="pt-12 pl-8 font-bold">{ this.state.cases[this.state.current].title }</p>
         <p className="pl-8">{ this.state.cases[this.state.current].date }</p>
         <div className="group flex flex-nowrap flex-row hover:text-lilac transition duration-100">
-          <a className="font-normal pl-8 pr-2 underline group-hover:font-bold transition duration-100" href="/star.png" target="_blank">Check it out!</a>
+          <a className="font-normal pl-8 pr-2 underline group-hover:font-bold transition duration-100" href={this.state.cases[this.state.current].link} target="_blank">Check it out!</a>
           <img src="/star.png" className="opacity-0 group-hover:opacity-100 object-contain w-4 h-auto transition duration-100"/>
         </div>
       </div>
