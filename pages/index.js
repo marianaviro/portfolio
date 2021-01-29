@@ -17,17 +17,17 @@ export default function Home() {
           Hi! My name is Mariana Villamizar.
         </h1>
         <div className="flex flex-wrap flex-row justify-between pt-24 py-8">
-          <div className="w-1/2 pr-4">
+          <div className="w-1/2 md:w-2/3 lg:w-1/2 pr-4 pb-0 md:pb-4 lg:pb-0">
             <p className="">I’m a designer and a systems and computing engineer from Bogotá, Colombia.</p>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 ml-0 md:w-2/3 md:ml-20 lg:w-1/2 lg:ml-0 py-0 md:py-4 lg:py-0">
             <p className="">My work specializes in information design, data visualization and illustration.</p>
           </div>
         </div>
-        <h3 className="w-2/3 font-oswald text-ml uppercase text-black leading-relaxed py-12">
+        <h3 className="w-2/3 md:w-3/4 lg:w-2/3 font-oswald text-ml uppercase text-black leading-relaxed py-12">
           I love the challenge of conveying meaning visually and impeccably.
         </h3>
-        <div className="w-1/2 pt-0 my-0 mx-auto py-12">
+        <div className="w-3/4 pl-3/4 lg:w-1/2 md:pl-0 pt-0 my-0 mx-auto py-12">
           I'm able to program prototypes into websites (like, well, the
           one you're on <a href="https://github.com/marianaviro/portfolio" target="_blank" className="text-lilac underline">–see my code on Github!</a>
           ) and also design websites and build prototypes with them (like this one too,
@@ -36,7 +36,7 @@ export default function Home() {
           through design and information, searching for insights in data or in documents or in someone's head, and
           coming up with ways to communicate these findings in the most appropriate way.
         </div>
-        <div className="w-2/3 pr-4 pt-0 py-12">
+        <div className="w-3/4 lg:w-2/3 pr-4 pt-0 py-12">
           In fact, my current job is exactly that: I receive buckets of data and reports from very talented organizations that
           need help in communicating (and sometimes even locating) their findings. My work can consist in
           searching <a href="https://datospersonalesyleyes.netlify.app/" target="_blank" className="text-lilac underline">through the data
@@ -46,17 +46,17 @@ export default function Home() {
           concept to transmit a previously selected information in an approachable and novel way, which I aimed to do
           in <a href="/especial-leche.pdf" target="_blank" className="text-lilac underline">this project</a> and <a href="/especial-ARV.pdf" target="_blank" className="text-lilac underline">this one, too.</a>
         </div>
-        <div className="w-1/2 pt-0 my-0 mx-auto py-12">
+        <div className="w-3/4 pl-3/4 lg:w-1/2 md:pl-0 pt-0 my-0 mx-auto py-12">
           I came to know Tailwind CSS through one of my colleagues, whose programming abilities I admire. He insisted I should try it.
           From the start, I just loved the idea of making the translation of design into code a much easier and intuitive task.
           Seizing the opportunity to show you my work, <a href="https://github.com/marianaviro/portfolio" target="_blank" className="text-lilac underline">I programmed this website
           using Tailwind CSS.</a> I think as a designer and a programmer I can be of assistance in connecting insights from both disciplines not just in Tailwind CSS –which I
           found to be an awesome tool to design with– but with your other products as well.
         </div>
-        <h3 className="w-2/3 font-oswald text-ml uppercase text-black leading-relaxed py-12">
+        <h3 className="w-2/3 md:w-3/4 lg:w-2/3 font-oswald text-ml uppercase text-black leading-relaxed py-12">
           I have experience working in startups with small teams.
         </h3>
-        <div className="w-1/2 pt-0 my-0 mx-auto py-12">
+        <div className="w-3/4 pl-3/4 lg:w-1/2 md:pl-0 pt-0 my-0 mx-auto py-12">
           This has given me the space to learn new things. From exploring
           the realms of marketing to design a brand strategy
           and <a href="https://xd.adobe.com/view/acac25bd-919d-4efc-87e2-20509a25c3ea-f9ff/?fullscreen&hints=off" target="_blank" className="text-lilac underline">build a landing page with it,</a> to becoming a data visualization nerd to study the best ways
@@ -64,10 +64,10 @@ export default function Home() {
           an organization's brand identity through their graphs.</a> I've even translated this knowledge
           into <a href="https://pasos-felices.netlify.app/" target="_blank" className="text-lilac underline">very cheesy personal projects.</a>
         </div>
-        <h3 className="w-1/2 font-oswald text-ml uppercase text-black leading-relaxed py-12">
+        <h3 className="w-2/3 md:w-3/4 lg:w-2/3 font-oswald text-ml uppercase text-black leading-relaxed py-12">
           Oh and I absolutely love that you're Open Source.
         </h3>
-        <div className="w-1/2 pt-0 my-0 mx-auto py-12">
+        <div className="w-3/4 pl-3/4 lg:w-1/2 md:pl-0 pt-0 my-0 mx-auto py-12">
           <p className="">As in my compromise to contribute both in my personal and my public life to gender equality, I find passion
           in learning about and contributing to data feminism, the defence of digital rights and the advocacy for Open Data.</p>
         </div>
