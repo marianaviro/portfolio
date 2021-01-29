@@ -11,7 +11,7 @@ export default function Projects() {
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet"/>
       </Head>
-      <main className="py-24 md:pr-16 px-4 pr-4">
+      <main className="pt-24 md:pr-16 pb-12 md:pb-24 px-4 pr-4">
         <h1 className="font-oswald text-l uppercase leading-tight">
           These are my most relevant projects.
         </h1>

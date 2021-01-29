@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet"/>
       </Head>
-      <main className="py-24 pr-16">
+      <main className="pt-24 pr-16 pb-12 md:pb-24">
         <h1 className="font-oswald text-xl uppercase leading-tight">
           Hi! My name is Mariana Villamizar.
         </h1>

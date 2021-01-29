@@ -10,7 +10,7 @@ export default function CV() {
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet"/>
       </Head>
-      <main className="absolute left-2/4 w-1/2 h-full overflow-x-scroll align-stretch py-48 pr-16">
+      <main className="pt-24 pr-16 pb-12 md:pb-24">
         <h1 className="font-oswald text-l uppercase leading-tight">
           My CV also says a<br></br>lot about me.
         </h1>
