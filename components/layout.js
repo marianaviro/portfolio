@@ -7,7 +7,7 @@ class Layout extends React.Component {
   constructor(props) {
     super(props);
     this.state = {  animation: 'dont-show-bg',
-                    end: false };
+                    end: true };
     this.start = this.start.bind(this);
     this.stop = this.stop.bind(this);
   }
@@ -17,17 +17,20 @@ class Layout extends React.Component {
       if (this.state.animation === 'show-bg-1') {
         console.log('Está 1, Show 2');
         this.setState(state => ({
-          animation: 'show-bg-2'
+          animation: 'show-bg-2',
+          end: false
         }));
       } else {
         console.log('Está 2, Show 1');
         this.setState(state => ({
-          animation: 'show-bg-1'
+          animation: 'show-bg-1',
+          end: false
         }));
       }
     } else {
       this.setState(state => ({
-        animation: 'dont-show-bg'
+        animation: 'dont-show-bg',
+        end: true
       }));
     }
   }
@@ -65,9 +68,10 @@ class Layout extends React.Component {
   render() {
     const { children } = this.props;
     return (
-      <div className="container relative">
-        <div className={ this.state.animation + " fixed container py-full min-w-full min-h-full t-0 l-0 -z-10"}>
-          <div className="w-full fixed top-0 z-50 flex flex-nowrap flex-row justify-end font-courier text-black text-sm italic py-4">
+      <div className="  ">
+        <div className={ this.state.animation + " md:max-h-screen bg-cover md:bg-contain"}>
+
+          <div className="fixed top-0 w-full z-50 flex flex-nowrap flex-row justify-end font-courier text-black text-sm italic py-4">
             <div className="px-4 group flex flex-nowrap flex-row border-1 border-solid border-lilac border-opacity-100 hover:border-opacity-100 hover:text-lilac transition duration-100">
               <Link href="/" className="flex flex-nowrap flex-row">
                   <a onMouseEnter={this.start} onMouseLeave={this.stop} className="font-normal pr-3 group-hover:font-bold transition duration-100">About me</a>
@@ -97,12 +101,14 @@ class Layout extends React.Component {
               </a>
             </div>
           </div>
-          <div className="fixed top-0 w-full h-full overflow-hidden flex flex-wrap font-courier text-black text-sm">
-            <div className="fixed t-0 b-0 l-0 w-1/2 h-full overflow-hidden self-stretch py-2 px-2">
+
+          <div className="w-full px-6 sm:px-0 sm:w-2/3 md:w-full md:max-h-screen flex flex-wrap-reverse font-courier text-black text-sm my-0 mx-auto">
+            <div className="flex main-content md:max-h-screen md:w-1/2 w-full min-w-500 px-8 pb-20 md:pb-0">
               <Featured/>
             </div>
-            {children.map(child => <div>{child}</div>)}
+            {children.map((child, i) => <div className="main-content overflow-y-auto md:w-1/2 w-full md:max-h-screen min-w-500">{child}</div>)}
           </div>
+
           <div className="w-full fixed bottom-0 flex flex-wrap flex-row text-left justify-start font-courier text-lilac text-xs italic py-4">
             <p onMouseEnter={this.start} onMouseLeave={this.stop} className="px-4">Mariana Villamizar</p>
             <img src="/star.png" className="px-4 opacity-100 object-contain w-10 h-auto"/>
